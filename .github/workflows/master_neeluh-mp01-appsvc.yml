@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'neeluh-mp01-appsvc'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1B8F74E4EA314928BF53C40AAB5FD672 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C26BA177DED147509717AC492FE1578C }}
           package: .
